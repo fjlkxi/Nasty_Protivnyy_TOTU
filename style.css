@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Rubik Wet Paint";
+  src: url("./fonts/RubikWetPaint-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik One";
+  src: url("./fonts/RubikMonoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik Beastly";
+  src: url("./fonts/RubikBeastly-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik Glitch";
+  src: url("./fonts/RubikGlitch-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+html, body, h1, h2 {
+  margin: 0;
+}
+
+body {
+  background: black;
+  color: #16FE11;
+  display: flex;
+  justify-content: center;
+}
+.main-content {
+  width: 1280px;
+  background: url("./images/main-background.png");
+  background-position-y: 18px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.main-header {
+  font-family: 'Rubik Wet Paint';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+  background: linear-gradient(180deg, #807FFE 27.6%, #16FE11 56.25%, #06CCEF 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+.first-block {
+  padding: 0 100px;
+  margin-top: 50px;
+  display: flex;
+}
+.first-block__left {
+  display:flex;
+  flex-direction: column;
+}
+.first-block__header {
+  font-family: 'Rubik One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  width: 480px;
+}
+.first-block__description {
+  font-family: 'Rubik One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  color: #06CCEF;
+  width: 400px;
+  margin-top: 25px;
+}
+.first-block__img-block {
+  margin-top: 50px;
+}
+.first-block__middle {
+  font-family: 'Rubik Beastly';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  margin-left: 40px;
+  margin-top: 270px;
+  writing-mode: vertical-lr; 
+  text-orientation: upright; 
+}
+.first-block__right {
+  font-family: 'Rubik One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  margin-left: 50px;
+  margin-top: 270px;
+  width: 143px;
+}
+.second-block {
+  padding: 100px 105px 0px 405px;
+  margin-top: 50px;
+  display: flex;
+}
+.second-block__left {
+  font-family: 'Rubik One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.165em;
+  color: #06CCEF;
+  width: 180px;
+}
+.second-block__middle  {
+  font-family: 'Rubik Beastly';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #807FFE;
+  margin-left: 136px;
+  height: 516px;
+  writing-mode: vertical-lr; 
+  text-orientation: upright; 
+}
+.second-block__right {
+  margin-left: 50px;
+}
+.third-block{
+  padding: 0 100px;
+  margin-top: 50px;
+  display: flex;
+}
+.third-block__left{
+  display:flex;
+  flex-direction: column;
+  
+}
+.third-block__left__description {
+  font-family: 'Rubik One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  color: #807FFE;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+.third-block__middleOne {
+  font-family: 'Rubik Beastly';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  writing-mode: vertical-lr; 
+  text-orientation: upright; 
+  margin-left: 50px;
+}
+.third-block__middleTwo {
+  display:flex;
+  flex-direction: column;
+}
+.third-block__middleTwo__description {
+  font-family: 'Rubik One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.16em;
+  margin-left: 70px;
+}
+.third-block__middleTwo__img-block {
+  margin-top: 33px;
+  margin-left: 70px;
+}
+.third-block__right {
+  font-family: 'Rubik Beastly';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.16em;
+  color: #807FFE;
+  writing-mode: vertical-lr; 
+  text-orientation: upright; 
+}
+.fourth-block {
+  font-family: 'Rubik Glitch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: justify;
+  letter-spacing: 0.16em;
+  margin-top: 90px;
+  padding-left: 115px;
+  padding-right: 130px;
+}
+.five-block {
+
+}
+.five-block__header {
+  font-family: 'Rubik Glitch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: justify;
+  letter-spacing: 0.16em;
+  color: #06CCEF;
+  margin-top: 165px;
+  padding-left: 115px;
+}
+.five-block__description {
+  font-family: 'Rubik Glitch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  letter-spacing: 0.16em;
+  margin-top: 70px;
+  padding-left: 115px;
+  padding-right: 733px;
+}
+.finish-block {
+  margin-top: 122px;
+  padding-left: 115px;
+  padding-bottom: 120px;
+}
